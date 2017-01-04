@@ -18,10 +18,34 @@
 
 **Link to work:** [bgcolorgen](https://github.com/joshbivens/bgcolorgen)
 
+---
+
 ### Day 2.5: January 3rd, 2017
 
 **Today's Progress:** Started Tic-Tac-Toe game and it's deceptively complex. Got as far as making the game board and superficially setting the text of the space you clicked on to "X".
 
 **Thoughts:** I need to figure out how the array of subarrays I've set up to house the data for each space relates to the HTML that I return from mapping it to produce the game board.
+
+**Link to work:** [TTT](https://github.com/joshbivens/TTT)
+
+---
+
+### Day 3: January 4th, 2017
+
+**Today's Progress:** Made this convoluted switch function that recieves the added index values of the currently occupied player spaces (checkSpaces checks for "X") and set the text content of a space that would prevent a win to "O", which worked for some of the cases:
+```javascript
+  ...
+  switch (checkSpaces) {
+    case 13:
+      spaces[4].innerHTML = "O";
+      break;
+    ...
+  }
+  ...
+```
+
+**Thoughts:** I have the game board mapped to an array, so the top left corner is at index 0, top middle is 1, and so on. Win states occur when three Xs are consecutive (horizontal), skip every 2 spaces (vertical), and skip three spaces (diagonal), so maybe adding their indices wont work in the end. 
+
+I'm all over the place. I need to focus on simplicity and cut the fat.
 
 **Link to work:** [TTT](https://github.com/joshbivens/TTT)
