@@ -17,3 +17,11 @@
 **Thoughts:** Very simple, but I wanted to figure out how to do this so that I can use it in a bigger app I have planned. Also, using higher order functions is becoming natural to me which is very cool.
 
 **Link to work:** [bgcolorgen](https://github.com/joshbivens/bgcolorgen)
+
+### Day 2.5: January 3rd, 2017
+
+**Today's Progress:** Started Tic-Tac-Toe game and it's deceptively complex. Got as far as making the game board and superficially setting the text of the space you clicked on to "X".
+
+**Thoughts:** I need to figure out how the array of subarrays I've set up to house the data for each space relates to the HTML that I return from mapping it to produce the game board.
+
+**Link to work:** [TTT](https://github.com/joshbivens/TTT)
