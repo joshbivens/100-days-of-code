@@ -61,3 +61,18 @@ I'm all over the place. I need to focus on simplicity and cut the fat.
 I just read yesterday's thoughts and I totally forgot about the win states and how they can arise consecutively or *skip* 2 or 3 spaces...hmm.
 
 **Link to work:** [TTT](https://github.com/joshbivens/TTT)
+
+### Day 5: January 6th, 2017
+
+**Today's Progress:** Had an idea: The values of the background's linear-gradient's rgb values change depending on how far you've scrolled down. I did this using a template string:
+
+```javascript
+  ...
+    container.style.background = `linear-gradient(135deg, rgb(${body.scrollTop * 0.01},...)...)`
+  ...
+```
+However, it was really *really* janky. I think it was too much for the repainting process, so I tried just changing opacity and it works smoothly.
+
+**Thoughts:** There has to be way to change a linear-gradient on scroll without some plugin or library. I'll try some more tomorrow.
+
+**Link to work:** [bgchange](https://github.com/joshbivens/bgchange)
