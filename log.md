@@ -49,3 +49,15 @@
 I'm all over the place. I need to focus on simplicity and cut the fat.
 
 **Link to work:** [TTT](https://github.com/joshbivens/TTT)
+
+---
+
+### Day 4: January 5th, 2017
+
+**Today's Progress:** Not much. Instead of adding up the total of the indexes of the player moves (and `switch` based on that!), I tried push to a `temp` *array*, but my `switch` didn't respond to cases of, for example, `[1, 2]`, and I'd have pretty much the same result I did when adding them.
+
+**Thoughts:** Arthur Russell is so good... So. There are 3 ways - modes - of winning: vertical, horizontal, and diagonal. Within each mode, there are two ways to complete a set of three: consecutively or alternately. We have to somehow cover all the bases. I'm going to take a break and try something different for the next couple of days.
+
+I just read yesterday's thoughts and I totally forgot about the win states and how they can arise consecutively or *skip* 2 or 3 spaces...hmm.
+
+**Link to work:** [TTT](https://github.com/joshbivens/TTT)
