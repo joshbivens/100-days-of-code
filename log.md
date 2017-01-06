@@ -62,6 +62,8 @@ I just read yesterday's thoughts and I totally forgot about the win states and h
 
 **Link to work:** [TTT](https://github.com/joshbivens/TTT)
 
+---
+
 ### Day 5: January 6th, 2017
 
 **Today's Progress:** Had an idea: The values of the background's linear-gradient's rgb values change depending on how far you've scrolled down. I did this using a template string:
