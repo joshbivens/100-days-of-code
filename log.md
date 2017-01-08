@@ -78,3 +78,13 @@ However, it was really *really* janky. I think it was too much for the repaintin
 **Thoughts:** There has to be way to change a linear-gradient on scroll without some plugin or library. I'll try some more tomorrow.
 
 **Link to work:** [bgchange](https://github.com/joshbivens/bgchange)
+
+---
+
+### Day 6: January 7th, 2017
+
+**Today's Progress:** Made a header that shrinks down on scroll, but that's not all. The body of the document has 4 or 5 sections, 700px each and each with a different color. When you scroll past a section, it's color sticks to the header and becomes a 10px border underneath. Scroll past the next section and it's color becomes a border stacked on the previous one, giving you the impression you're scrolling through a stack of cards.
+
+**Thoughts:** It would be cool to set up some variables (wtih Sass) so that you just indicate the colors of the sections you want beforehand. Right now everything's hard-coded.
+
+**Link to work:** [rainbow-header](https://github.com/joshbivens/rainbow-header)
