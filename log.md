@@ -88,3 +88,23 @@ However, it was really *really* janky. I think it was too much for the repaintin
 **Thoughts:** It would be cool to set up some variables (wtih Sass) so that you just indicate the colors of the sections you want beforehand. Right now everything's hard-coded.
 
 **Link to work:** [rainbow-header](https://github.com/joshbivens/rainbow-header)
+
+---
+
+### Day 7: January 8th, 2017
+
+**Today's Progress:** Made a super simple thing where you set the border color of a card from a palette of colors. Made it just to see if I'm at a point where that level of front-end is trivial or not (also I'm sick).
+
+**Thoughts:** It was trivial, which is encouraging.
+
+**Link to work:** [Set Border Color](http://codepen.io/joshbivens/pen/vgNObB)
+
+---
+
+### Day 8: January 9th, 2017
+
+**Today's Progress:** Seeing if making a settings interface will be easy or confusing. It's very early and I have to work soon, *and* I'm sick, so I'll get to more of this tonight or tomorrow.
+
+**Thoughts:** So far, cosmetically, it's been very easy. Now I need to figure out how the settings will actually be presented to the user. This is a programming challenge, but more so a UX/UI challenge.
+
+**Link to work:** [Settings](http://codepen.io/joshbivens/pen/GrppOr/)
