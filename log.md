@@ -108,3 +108,13 @@ However, it was really *really* janky. I think it was too much for the repaintin
 **Thoughts:** So far, cosmetically, it's been very easy. Now I need to figure out how the settings will actually be presented to the user. This is a programming challenge, but more so a UX/UI challenge.
 
 **Link to work:** [Settings](http://codepen.io/joshbivens/pen/GrppOr/)
+
+---
+
+### Day 9: January 10th, 2017
+
+**Today's Progress:** Work again in a few hours, but I did manage to get a sort of modal window to pop up when you click the settings icon.
+
+**Thoughts:** There's a lot of `position: absolute;`s that might interfere with stuff down the road, but overall I'm happy with today's progress. Tonight or tomorrow, I'll add a few toggles...or maybe a slider that effects the background color! Some setting to top it off.
+
+**Link to work:** [Settings](http://codepen.io/joshbivens/pen/GrppOr/)
