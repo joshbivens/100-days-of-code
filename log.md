@@ -115,8 +115,18 @@ However, it was really *really* janky. I think it was too much for the repaintin
 
 **Today's Progress:** Work again in a few hours, but I did manage to get a sort of modal window to pop up when you click the settings icon.
 
-**Thoughts:** There's a lot of `position: absolute;`s that might interfere with stuff down the road, but overall I'm happy with today's progress. Tonight or tomorrow, I'll add a few toggles...or maybe a slider that effects the background color! Some setting to top it off.
+**Thoughts:** There's a lot of `position: absolute`s that might interfere with stuff down the road, but overall I'm happy with today's progress. Tonight or tomorrow, I'll add a few toggles...or maybe a slider that effects the background color! Some setting to top it off.
 
 Update: Added a "Background" setting that let's you set the background color of the "Content". And it works! Pretty cool. Adding more settings, like font style and family, tomorrow.
+
+**Link to work:** [Settings](http://codepen.io/joshbivens/pen/GrppOr/)
+
+---
+
+### Day 10: January 11th, 2017
+
+**Today's Progress:** Added Background Color, Font Family, and Font Color Settings to my modal.
+
+**Thoughts:** It all works...on big screens. On laptop (which I neglected to even think about, let alone mobile widths), it all falls apart. However, I think have the solution. Instead of a modal window, the settings icon will be in the *bottom* left hand corner. When you click on it, a drawer with the three settings (on a semi-opaque background) will slide out along the bottom edge of the screen. It'll be fixed, so it should solve the viewport problem, and having the setting on the bottom will let you see the changes to the content in real-time instead of a modal blocking your view until you close it. 
 
 **Link to work:** [Settings](http://codepen.io/joshbivens/pen/GrppOr/)
